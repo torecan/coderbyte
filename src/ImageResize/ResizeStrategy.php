@@ -1,6 +1,6 @@
 <?php
 
-namespace ImageResizer;
+namespace ImageResize;
 
 interface ResizeStrategy
 {

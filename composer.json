@@ -1,0 +1,9 @@
+{
+  "name": "torecan/coderbyte",
+  "description": "iss interview",
+  "autoload": {
+    "psr-4": {
+      "ImageResize": "src/ImageResize/"
+    }
+  }
+}
