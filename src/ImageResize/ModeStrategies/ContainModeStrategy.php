@@ -21,9 +21,6 @@ class ContainModeStrategy implements ResizeStrategy
         $aspectRatioB = $imageB['width'] / $imageB['height'];
         $newHeight = min($imageA['height'], $imageB['height']);
 
-        echo "aspect - b: ". $aspectRatioB . PHP_EOL;
-        echo "new ". $newHeight;
-
         $newWidth = $newHeight * $aspectRatioB;
 
         if ($newWidth > $imageA['width']) {
